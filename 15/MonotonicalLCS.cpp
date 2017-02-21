@@ -63,6 +63,8 @@ void PrintTrack(string M, char **arrow, int m, int n, int i, int j){
     }
 }
 
+// use the nlg(n) time to solve it.
+
 int main(){
     string M("abcyedfgzmw");
     string N(M);
