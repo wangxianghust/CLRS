@@ -71,8 +71,8 @@ vector<int> InOrderIter(T root){
             current_node = current_node->left;
         }
         current_node = wait_to_visit.top();
-        ret.push_back(current_node->key);
         wait_to_visit.pop();  
+        ret.push_back(current_node->key);
         current_node = current_node->right;
     }
     print(ret, "InOrderIter");
