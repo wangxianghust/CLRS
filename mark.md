@@ -7,6 +7,10 @@ chapter 10
 10.4-6
 去掉parent指针，增加一个bool确定node有没有right sibling，有的话next指向兄弟，没有的话next指向parent。
 
+chapter 12
 12.2
 Successor and Precessor, which is O(h) , h is the height of the tree
 for a continuous (n-1) Successor call, it at most visit every edge 2 times, which time complexcity is O(n).
+
+*Red-black tree insertion and deletion.
+https://github.com/julycoding/The-Art-Of-Programming-By-July/blob/master/ebook/zh/03.01.md
