@@ -28,3 +28,12 @@ they may be the brothers rather than parents and children.
 *22.3-13
 for every node x in V, use DFS, and detect whether there are forward edges or cross edges(in the same component)
 if yes, then it is not single, else it is single.
+
+*22.5-1
+keep or decrease one component number
+
+*22.5-3
+no, without transpose graph, two nodes which can visit each other may not be satisfied.
+
+*22.5-4
+the strongly connected relationship is an equivalence relation. so G and GT have the same SCC.
